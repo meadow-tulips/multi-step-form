@@ -1,0 +1,48 @@
+div.work-exp .add-new-exp input[type="submit"] {
+    border-style: dashed;
+    background: aqua;
+    text-align: left;
+    padding: .6rem .85rem;
+    font-weight: 300;
+    font-size: .875rem;
+}
+
+
+div.work-exp p.description {
+    color: #a4a6a9;
+}
+
+
+.work-exp .add-new-exp input {
+    border-style: dashed;
+}
+
+
+
+div.work-exp .delete {
+    text-align: right;
+    margin-top: 1.2rem;
+}
+
+
+div.work-exp .work-input .error {
+    display: none;
+}
+
+
+@media screen  and (min-width: 768px){
+    div.work-exp .input-wrapper {
+        max-width: 320px;
+        width: 50%;
+    }
+
+    div.work-exp .input-wrapper:not(:last-child) {
+        margin-right: 4rem;
+    }
+    
+    div.work-exp  .work-input {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }   
+}

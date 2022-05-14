@@ -1,0 +1,30 @@
+div.personal-info {
+    padding: 1rem;
+    text-align: left;
+}
+
+
+div.personal-info form {
+    text-align: left;
+    margin: 3rem 0;
+}
+
+
+div.personal-info p.description {
+    color: #a4a6a9;
+}
+
+
+@media screen and (min-width: 640px) {
+    div.personal-info form {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 640px;
+    }
+
+    div.personal-info form .input-wrapper, div.personal-info .select-wrapper {
+        width: 50%;
+        padding-right: 1rem;
+        max-width: 320px;
+    }
+}

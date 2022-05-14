@@ -1,0 +1,12 @@
+const actionTypes = {
+    "INIT": "INIT",
+    "PREVIOUS_STEP": "PREVIOUS_STEP",
+    "NEXT_STEP": "NEXT_STEP",
+    "UPDATE": "UPDATE",
+    "UPDATE_VALIDATIONS": "UPDATE_VALIDATIONS",
+    "RESET_VALIDATIONS": "RESET_VALIDATIONS",
+    "SHOW_ERRORS": "SHOW_ERRORS",
+    "HIDE_ERRORS": "HIDE_ERROS"
+}
+
+export default actionTypes;

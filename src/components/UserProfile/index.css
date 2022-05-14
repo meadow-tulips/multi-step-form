@@ -1,0 +1,74 @@
+div.user-profile p.description {
+    color: #a4a6a9;
+}
+
+
+div.user-profile .emptydiv {
+    height: 8rem;
+    background-color: #88f8fd;
+}
+
+
+div.user-profile .profile-pic-input input {
+    display: none;
+}
+
+
+div.user-profile .profile-pic-input label {
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    object-fit: contain;
+    border-radius: 50%;
+    border: 1px solid #ced4da;
+    transform: translateY(-50%);
+    outline: 4px solid #fff;
+    background-color: #fff;
+    overflow: hidden;
+    position: absolute;
+}
+
+div.user-profile .profile-pic-input .label {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+div.user-profile .profile-pic-input label img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+div.user-profile .profile-pic-input {
+    margin: 0 3rem;
+    position: relative;
+}
+
+
+
+div.user-profile div.profile-container {
+    border: 1px solid #eef3f7;
+    border-radius: .65rem;
+    overflow: hidden;
+}
+
+div.user-profile .name {
+    color: #370a0a;
+}
+
+div.user-profile .name, div.user-profile .location {
+    text-transform: capitalize;
+    margin: 0 3rem;
+}
+
+div.user-profile .location {
+    font-weight: 600;
+    color: #4646ff;
+    margin-top: 1.4rem;
+}
+
+div.user-profile .name-location {
+    margin: 3rem 0;
+}

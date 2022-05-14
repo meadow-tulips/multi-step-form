@@ -1,0 +1,47 @@
+section.step-navigation {
+    color: #fff;
+    text-align: left;
+    padding: 2rem;
+}
+
+section.step-navigation .container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    margin: 3rem 0;
+}
+
+
+section.step-navigation .container.completed > * {
+    opacity: 1;
+}
+
+section.step-navigation .container > * {
+    opacity: .3;
+}
+
+section.step-navigation .container span.value {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin-right: 1.5rem;
+    flex-shrink: 0;
+    position: relative;
+}
+
+section.step-navigation .container:not(:first-of-type) > span.value::before {
+    content: '';
+    display: block;
+    height: 2rem;
+    position: absolute;
+    bottom: 130%;
+    left: 0;
+    width: 100%;
+    border-left: 1px dashed yellow;
+    transform: translateX(50%);
+}

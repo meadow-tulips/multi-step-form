@@ -1,0 +1,30 @@
+.education .add-new-school input {
+    border-style: dashed;
+}
+
+
+div.education .input-wrapper {
+    max-width: 320px;
+}
+
+div.education form .input-wrapper input {
+    background: aqua;
+    text-align: left;
+    padding: .6rem .85rem;
+    font-weight: 300;
+    font-size: .875rem;
+}
+
+div.education p.description {
+    color: #a4a6a9;
+}
+
+div.education .delete {
+    text-align: right;
+    margin-top: .3rem;
+}
+
+
+div.education .education-input {
+    max-width: 320px;
+}

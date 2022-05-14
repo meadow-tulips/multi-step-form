@@ -1,0 +1,39 @@
+.home-page {
+    height: 100%;
+}
+
+.home-page .step-navigation {
+    display: none;
+}
+
+.home-page .step-body {
+    width: 100%;
+    padding: 2rem;
+}
+
+
+@media screen and (min-width: 768px) {
+    .home-page .step-navigation {
+        display: block;
+        width: 30%;
+        min-width: 275px;
+        background-color: #85608d;
+        flex-shrink: 0;
+    }
+
+    .home-page {
+        display: flex;
+    }
+        
+}
+
+@media screen and (min-width: 1200px) {
+    .home-page .step-navigation {
+        width: 360px;
+        padding: 5rem;
+    }
+
+    .home-page .step-body {
+        padding: 5em;
+    }
+}

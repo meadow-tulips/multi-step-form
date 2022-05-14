@@ -1,0 +1,38 @@
+.stepbody .next .error {
+    display: none;
+}
+
+.stepbody .btn-group {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.stepbody .previous {
+    margin-right: 3rem;
+    color: gray;
+    font-size: .75rem;
+    font-weight: 300;
+    padding:.6rem 2rem;
+    border-radius: 6px;
+    border: 1px solid #eef3f7;
+}
+
+.stepbody .previous:disabled {
+    opacity: .5;
+}
+
+
+.stepbody .next input {
+    background-color: #6b6bf5;
+    border-radius: 6px;
+    color: #fff;
+    font-size: .75rem;
+    font-weight: 300;
+    padding:.6rem 2rem;
+}
+
+.stepbody .next div.label, .stepbody .previous div.label {
+    display: none;
+}

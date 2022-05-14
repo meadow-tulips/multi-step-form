@@ -1,0 +1,49 @@
+.hidden {
+    visibility: hidden;
+}
+
+.error {
+    margin: .2rem 0;
+    min-height: 1rem;
+    color:  #B00020;
+    font-size: .65rem;
+}
+
+
+input.input {
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+    border: 1px solid #ced4da;
+    color: #495057;
+    outline: 0;
+    width: 100%;
+}
+
+input.input:focus {
+    border-color: #80bdff;
+}
+
+div.input-wrapper label {
+    display: block;
+}
+
+div.input-wrapper div.label {
+    margin-bottom: .5rem;
+    margin-top: .2rem;
+    text-transform: capitalize;
+    color: #495057;
+    font-size: .85rem;
+    font-weight: 300;
+}
+
+
+input:disabled {
+    opacity: .3;
+}
+
+
+div.input-wrapper.pointer {
+    cursor: pointer;
+}

@@ -1,0 +1,50 @@
+div.select-wrapper label {
+    margin-bottom: .5rem;
+    margin-top: .2rem;
+    text-transform: capitalize;
+    color: #495057;
+    display: block;
+    font-weight: 300;
+    font-size: .85rem;
+}
+
+
+div.select-wrapper select option {
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+
+div.select-wrapper select {
+    color: #212529;
+    line-height: 1.5;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: .5rem .75rem;
+    border-radius: .2rem;
+    border: 1px solid #ced4da;
+    color: #495057;
+    outline: 0;
+    width: 100%;
+}
+
+div.select-wrapper select:focus {
+    border-color: #80bdff;
+}
+
+
+.hidden {
+    visibility: hidden;
+}
+
+.error {
+    margin: .2rem 0;
+    min-height: 1rem;
+    color:  #B00020;
+    font-size: .65rem;
+}
